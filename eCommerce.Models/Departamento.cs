@@ -9,7 +9,7 @@ namespace eCommerce.Models
     public class Departamento
     {
         public int Id { get; set; }
-        public string? Nome { get; set; }
+        public string Nome { get; set; } = null!;
         //lista de usuários que gosta de um determinado departamento
         public ICollection<Usuario>? Usuarios { get; set; }
     }

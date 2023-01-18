@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>886a2802-68b7-461e-bb74-129511357639</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\eCommerce.Models\eCommerce.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="eCommerce.Console">
+      <HintPath>..\eCommerce.Console\obj\Debug\net6.0\eCommerce.Console.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
